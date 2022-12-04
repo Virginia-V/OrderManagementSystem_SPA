@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets, .charts, .listContainer {
+      display: flex;
+      padding: 15px;
+      gap: 20px;
+    }
+
+    .charts, .listContainer {
+      padding:  10px 20px;
+    }
+  }
+}

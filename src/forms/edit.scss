@@ -1,0 +1,45 @@
+.update-item {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    color: gray;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  form {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+
+    .errorMessage {
+      font-size: 15px;
+      padding: 3px;
+      color: red;
+    }
+
+    .buttons {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 12px;
+
+      .link {
+        text-decoration: none;
+      }
+    }
+  }
+}

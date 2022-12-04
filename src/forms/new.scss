@@ -1,0 +1,39 @@
+.new {
+  .new-button {
+    position: absolute;
+    top: 73px;
+    right: 20px;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+
+  .errorMessage {
+    font-size: 15px;
+    padding: 3px;
+    color: red;
+  }
+
+  .buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 24px;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .clear-icon {
+      margin-left: 10px;
+    }
+  }
+}
